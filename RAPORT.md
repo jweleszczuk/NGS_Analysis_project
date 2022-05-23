@@ -1,9 +1,9 @@
 # NGS_Analysis_project
 
-University project, neccesary to complete the course. It is based on data from NCBI SRA database. 
+University project, neccesary to complete the course. It is based on data from NCBI SRA database. It has been created in 2010-10-12.
 
 # 1. SRP003355 project
-
+Project was created by University of Michigan and was about Saccharomyces cerevisiae.
 ## 1.1 Aim of the project
 For this porpouse, the project with ID SRP003355, was reviewed. 
 The aim of mentioned project was a collective linkage analysis to discover functional mutations in Saccharomyces cerevisiae by whole genome sequencing.
@@ -16,6 +16,9 @@ This SRA project consists of 3 repositories:
 - SRX025958: Yeast vac6, mutant segregant pool
 
 - SRX025957: yeast vac6, wild-type segregant pool
+
+Each repository creating by sequencing on Illumina Genome Analyzer with WholeGenomeSequencing Strategy.
+Read are the type of pair-end ones.
 
 ## 2. Downloading data
 
