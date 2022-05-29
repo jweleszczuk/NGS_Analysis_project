@@ -1,7 +1,5 @@
 #!/bin/bash
 
-Skrypty/Combine_ref_into_one_geonm.sh
-
 
 
 path="/home/jarek/Project_NGS/SRR0645"
