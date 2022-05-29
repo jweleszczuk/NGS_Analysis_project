@@ -2,7 +2,7 @@
 
 
 
-path="/home/jarek/Project_NGS/SRR0645"
+path="Project_NGS/SRR0645"
 
 end_name=".fastq"
 
