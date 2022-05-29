@@ -10,7 +10,7 @@ bcftools call "/home/jarek/Project_NGS/zmapowane/my_raw.bcf" -vmO z -o "/home/ja
 
 l_of_names_1=(45 46 47)
 
-for number in ${l_of_names[*]};do
+for number in ${l_of_names_1[*]};do
 	
 	bcftools mpileup  -Ou --fasta-ref  "/home/jarek/Project_NGS/chromosomes/whole_genom.fa" "/home/jarek/Project_NGS/zmapowane/SRR_"$number"/"$number"_hisat_sorted.bam"  > "/home/jarek/Project_NGS/zmapowane/"$number".bcf"
 	
