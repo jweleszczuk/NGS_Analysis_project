@@ -1,9 +1,9 @@
 #!/bin/bash
-path_dyd="/home/jarek/Project_NGS/"
+path_dyd="Project_NGS/"
 
-ref_path="/home/jarek/Project_NGS/chromosomes/genom_ref/genom"
+ref_path="Project_NGS/chromosomes/genom_ref/genom"
 
-output="/home/jarek/Project_NGS/zmapowane/"
+output="Project_NGS/mapped/"
 
 l_of_names=(45 46 47)
 
