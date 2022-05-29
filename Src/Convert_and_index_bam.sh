@@ -8,7 +8,7 @@ middle_new="_hisat_sorted.bam"
 
 l_of_names_1=(45 46 47)
 
-for number in ${l_of_names[*]};do
+for number in ${l_of_names_1[*]};do
 	
 	nazwa_f="SRR_"$number
 
