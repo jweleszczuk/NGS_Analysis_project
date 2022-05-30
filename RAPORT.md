@@ -28,36 +28,45 @@ Read are the type of pair-end ones, random selected.
 4. Indexing reference genome - hisat2
 5. Mapping to reference genome - hisat2
 6. Conversion and indexing sam files - samtools
-7. Variant calling - bcftools
-8. Variant filter - vcftools
-9. Variant adnotaion - snpEff
+7. Aligment information - samtools
+8. Variant calling - bcftools
+9. Variant filter - vcftools
+10. Variant adnotaion - snpEff
 
 ## 2.1 Downloading data - SRA repositorium
 
 From each SRA project repostory, only first 1 000 000 read were downloaded.
-Data has been obtained by using fastq-dump function.
+Data has been obtained by using _fastq-dump_ function.
 This step resulted in 3 directories with 2 .fastq files each.
 
 ## 2.2 Downloading data - reference genome
 
-Reference genome has been downloaded from Ensembl with the use of wget function.
+Reference genome has been downloaded from Ensembl with the use of _wget_ function.
 
 ## 2.3 Quality control
 
 Next step was based on quality control for each downloaded record.
-This has been perfomered with the use of fastqc and multiqc function.
+This has been perfomered with the use of _fastqc_ and _multiqc_ function.
 All samples had good per base sequence quality, over 20. 
 Generated files can be found in the Data/Quality_control directory.
 
 ## 2.4 Indexing reference genom
-Reference genome has been indexed with the use of hisat2-bulid function.
+Reference genome has been indexed with the use of _hisat2-bulid_ function.
 
 ## 2.5 Mapping
 
-Data from SRA repositories have been mapped to reference genome with the use of hisat2 function with paired read option.
-Sam files has been convered into bam files with _samtools view_,  and sorted with the use of samtools
+Data from SRA repositories have been mapped to reference genome with the use of _hisat2_ function with paired read option.
 
-## 6. SNP detection
+## 2.6 Conversiona and indexing
+
+Sam files has been convered into bam files with _samtools view_, and then sorted with the use of _samtools index_.
+
+## 2.7 Aligment information
+
+Information has been gathered with the use of the following _samtools_ arguments: _flagstat_, _stats_, _coverage_
+
+## 2.8 SNP detection
+
 
 ## 7. Variant adnotation
 
