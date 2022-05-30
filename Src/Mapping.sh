@@ -14,8 +14,8 @@ for number in ${l_of_names[*]};do
 	name_bam="SRR_"$number"_hisat.bam"
 	
 	
-	hisat2 -q -x $ref_path -1 $path_dyd$name_f$number"/SRR0645"$number"_1.fastq" -2 $path_dyd$name_f$number"/SRR0645"$number"_2.fastq" -S $output$nazwa_f"/"$nazwa_p
-	samtools view -Sb $output$nazwa_f"/"$nazwa_p > $output$nazwa_f"/"$nazwa_bam
-	rm $output$nazwa_f"/"$nazwa_p
+	hisat2 -q -x $ref_path -1 $path_dyd$name_f$number"/SRR0645"$number"_1.fastq" -2 $path_dyd$name_f$number"/SRR0645"$number"_2.fastq" -S $output$name_f"/"$name_p
+	samtools view -Sb $output$name_f"/"$name_p > $output$name_f"/"$name_bam
+	rm $output$name_f"/"$name_p
 done
 
