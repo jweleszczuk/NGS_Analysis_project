@@ -33,6 +33,7 @@ Read are the type of pair-end ones, random selected.
 8. Variant calling - bcftools
 9. Variant filter - vcftools
 10. Variant adnotaion - snpEff
+11. Visualization - R and Python.
 
 ## 2.1 Downloading data - SRA repositorium:
 
@@ -83,8 +84,7 @@ For adnotation the snpEff file has been used in pair with the R64-1-1 Assembly a
 
 ## 3. Results visualisation:
 
-R package has been used in order to create Venn diagram and 
-
+R package has been used in order to create Venn diagram and information from annotated files, such as **QUAL**, **MQ** and **DP**.
 
 
   
