@@ -33,7 +33,7 @@ This directory contains data that was used \ obtained during the analysis.
 ## Versions of used tools:
 
 **R:**
-- R
+- R 4.0.5
 - readr_2.0.2         
 - VennDiagram_1.7.3   
 - vfutile.logger_1.4.3
@@ -44,7 +44,7 @@ This directory contains data that was used \ obtained during the analysis.
 - ggplot2_3.3.5 ape_5.5   
 
 **Python:**
-- Python
+- Python 3.7.10 
 - pandas 1.2.3
 - seaborn 0.11.2
 - matplotlib 3.3.4
@@ -59,8 +59,3 @@ This directory contains data that was used \ obtained during the analysis.
 - fastq-dump 2.8.2
 - wget 1.21.3
 - snpeff 5.1d
-
-
-
-
-
