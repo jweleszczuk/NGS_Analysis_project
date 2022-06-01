@@ -38,7 +38,7 @@ Read are the type of pair-end ones, random selected.
 7. Aligment information - _samtools _+ _jupyter notebook_
 8. Variant calling - _bcftools_
 9. Variant filter - _vcftools_
-10. Variant adnotaion - _snpEff_
+10. Variant annotaion - _snpEff_
 11. Visualization - _R_ and _Python_.
 
 ### 2.1 Downloading data - SRA repositorium:
@@ -84,9 +84,9 @@ Then _bfctools call_ has been used in order to call genetic variants and outputs
 
 _Vcftool_ has been used to reduce the size of the .vcf file and shorthen the number of variant.
 
-### 2.10 Variant adnotation:
+### 2.10 Variant annotation:
 
-For adnotation the _snpEff_ program has been used in pair with the R64-1-1 Assembly and 105 Ensembl release. version of the reference genome.
+For annotation the _snpEff_ program has been used in pair with the R64-1-1 Assembly and 105 Ensembl release. version of the reference genome.
 
 ### 3. Results visualisation:
 
