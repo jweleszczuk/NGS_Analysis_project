@@ -31,5 +31,36 @@ This directory contains data that was used \ obtained during the analysis.
 - Visualizations of the VCF files.ipynb    = general stats for the annotated vcf.
 
 ## Versions of used tools:
-...
+
+**R:**
+- R
+- readr_2.0.2         
+- VennDiagram_1.7.3   
+- vfutile.logger_1.4.3
+- dplyr_1.0.7 
+- vcfR_1.12.0   
+- purrr_0.3.4   
+- gridExtra_2.3 
+- ggplot2_3.3.5 ape_5.5   
+
+**Python:**
+- Python
+- pandas 1.2.3
+- seaborn 0.11.2
+- matplotlib 3.3.4
+
+**Bash:**
+- samtools 1.15.1
+- bcftools 1.7
+- vcftools 0.1.15
+- hisat2 2.1.0
+- multiqc 1.12
+- fatqc 0.11.5
+- fastq-dump 2.8.2
+- wget 1.21.3
+- snpeff 5.1d
+
+
+
+
 
