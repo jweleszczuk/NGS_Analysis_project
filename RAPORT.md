@@ -7,7 +7,7 @@ It is based on data from NCBI SRA database, which has been created in 2010-10-12
 
 ## 1. SRP003355 project
 
-Project was created by University of Michigan and it is about Saccharomyces cerevisiae, which is a baker's yeast.
+Project was created by University of Michigan and it is about _Saccharomyces cerevisiae_, which is a baker's yeast.
 
 ### 1.1 Aim of the project
 
