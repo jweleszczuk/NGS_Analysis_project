@@ -35,7 +35,7 @@ Read are the type of pair-end ones, random selected.
 4. Indexing reference genome - _hisat2_
 5. Mapping to reference genome - _hisat2_
 6. Conversion and indexing sam files - _samtools_
-7. Aligment information - _samtools _+ _jupyter notebook_
+7. Aligment information - _samtools_ + _jupyter notebook_
 8. Variant calling - _bcftools_
 9. Variant filter - _vcftools_
 10. Variant annotaion - _snpEff_
