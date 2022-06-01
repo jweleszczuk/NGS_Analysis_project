@@ -7,12 +7,12 @@ University project, neccesary to complete the course.
 - **Src directory**    = this directory holds all of the scripts, that were used in this project.
 
 ## **Data directory** - all result files
-This directory contains data that was used \ obtained during the analysis. 
+This directory contains data that was used/obtained during the analysis. 
 
 - Quality_control  = _fastqc_ reports + main _multiqc_ report.
 - Reference_genome = all chromosomes + annotation data.
 - VCF              = final annotated files, summaries and gene lists.
-- Visualizations   = visualizations of VCF files, statistics of bam files and common SNPs between samples in presented in the form of Venn diagram. 
+- Visualizations   = visualizations of VCF files, statistics of bam files and common SNPs between samples are presented in the form of Venn diagram. 
 - mapping          = bam files and informations about them, such as coverage, flasgstat and stats for each repository.
 
 
@@ -28,7 +28,7 @@ This directory contains data that was used \ obtained during the analysis.
 - Variant_filter.sh                        = selection by custom filter.
 - Venn Diagram.ipynb                       = R Venn diagram (SNP).
 - Visualization of mapping .ipynb          = R chromosomal visualization.
-- Visualizations of the VCF files.ipynb    = general statisctics for the annotated .vcf files.
+- Visualizations of the VCF files.ipynb    = general statistics for the annotated .vcf files.
 
 ## Versions of used tools:
 
