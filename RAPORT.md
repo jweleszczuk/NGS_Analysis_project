@@ -11,7 +11,7 @@ Project was created by University of Michigan and it is about _Saccharomyces cer
 
 ### 1.1 Aim of the project
 
-The aim of mentioned project was a collective linkage analysis to discover functional mutations in Saccharomyces cerevisiae by Whole Genome Sequencing.
+The aim of mentioned project was a collective linkage analysis to discover functional mutations in _Saccharomyces cerevisiae_ by Whole Genome Sequencing.
 
 ### 1.2 Project data:
 
