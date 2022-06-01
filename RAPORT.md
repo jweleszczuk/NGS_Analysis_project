@@ -1,39 +1,45 @@
 # NGS_Analysis_project
 
-University project, neccesary to complete the course. It is based on data from NCBI SRA database. It has been created in 2010-10-12.
+
+University project, neccesary to complete the course.
+It is based on data from NCBI SRA database, which has been created in 2010-10-12.
+
 
 ## 1. SRP003355 project
-Project was created by University of Michigan and was about Saccharomyces cerevisiae, which is a baker's yeast, brewer's yeast, budding yeast.
+
+Project was created by University of Michigan and was about Saccharomyces cerevisiae, which is a baker's yeast.
 
 ### 1.1 Aim of the project
+
 For this porpouse, the project with ID SRP003355, was reviewed. 
 The aim of mentioned project was a collective linkage analysis to discover functional mutations in Saccharomyces cerevisiae by whole genome sequencing.
 
 ### 1.2 Project data:
+
 This SRA project consists of 3 repositories:
 
-- SRX025959: Yeast vac22, wild-type segregant pool
+- SRX025959: Yeast vac22, wild-type segregant pool [45]
 
-- SRX025958: Yeast vac6, mutant segregant pool
+- SRX025958: Yeast vac6, mutant segregant pool [46]
 
-- SRX025957: yeast vac6, wild-type segregant pool
+- SRX025957: yeast vac6, wild-type segregant pool [47]
 
-Each repository creating by sequencing on Illumina Genome Analyzer with WholeGenomeSequencing Strategy.
+Each repository creating by sequencing on Illumina Genome Analyzer with Whole Genome Sequencing Strategy.
 Read are the type of pair-end ones, random selected. 
 
 ## 2. Steps of analysis:
 
-1. Downloading data from SRA repositorium - fastq-dump
-2. Downloading reference genome - wget
-3. Quality control - fastqc + multiqc
-4. Indexing reference genome - hisat2
-5. Mapping to reference genome - hisat2
-6. Conversion and indexing sam files - samtools
-7. Aligment information - samtools + jupyter notebook
-8. Variant calling - bcftools
-9. Variant filter - vcftools
-10. Variant adnotaion - snpEff
-11. Visualization - R and Python.
+1. Downloading data from SRA repositorium - _fastq-dump_
+2. Downloading reference genome - _wget_
+3. Quality control - _fastqc_ +_ multiqc_
+4. Indexing reference genome - _hisat2_
+5. Mapping to reference genome - _hisat2_
+6. Conversion and indexing sam files - _samtools_
+7. Aligment information - _samtools _+ _jupyter notebook_
+8. Variant calling - _bcftools_
+9. Variant filter - _vcftools_
+10. Variant adnotaion - _snpEff_
+11. Visualization - _R_ and _Python_.
 
 ### 2.1 Downloading data - SRA repositorium:
 
@@ -67,7 +73,7 @@ Sam files has been convered into bam files with _samtools view_, and then sorted
 ### 2.7 Aligment information:
 
 Information has been gathered with the use of the following _samtools_ arguments: _flagstat_, _stats_, _coverage_
-Then, collected informations have been visualized with use of following _python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
+Then, collected informations have been visualized with use of following _Python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
 
 ### 2.8 SNP detection:
 
@@ -76,13 +82,13 @@ Then _bfctools call_ has been used in order to call genetic variants and outputs
 
 ### 2.9 Variant Filtering:
 
-Vcftool has been used to reduce the size of the .vcf file and shorthen the number of variant.
+_Vcftool_ has been used to reduce the size of the .vcf file and shorthen the number of variant.
 
 ### 2.10 Variant adnotation:
 
-For adnotation the snpEff program has been used in pair with the R64-1-1 Assembly and 105 Ensembl release. version of the reference genome.
+For adnotation the _snpEff_ program has been used in pair with the R64-1-1 Assembly and 105 Ensembl release. version of the reference genome.
 
 ### 3. Results visualisation:
 
-R package has been used in order to create Venn diagram and information from annotated files, such as **QUAL**, **MQ** and **DP**.
+_R_ package has been used in order to create Venn diagram and information from annotated files, such as **QUAL**, **MQ** and **DP**.
 
