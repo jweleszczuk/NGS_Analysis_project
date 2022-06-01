@@ -7,12 +7,11 @@ It is based on data from NCBI SRA database, which has been created in 2010-10-12
 
 ## 1. SRP003355 project
 
-Project was created by University of Michigan and was about Saccharomyces cerevisiae, which is a baker's yeast.
+Project was created by University of Michigan and it is about Saccharomyces cerevisiae, which is a baker's yeast.
 
 ### 1.1 Aim of the project
 
-For this porpouse, the project with ID SRP003355, was reviewed. 
-The aim of mentioned project was a collective linkage analysis to discover functional mutations in Saccharomyces cerevisiae by whole genome sequencing.
+The aim of mentioned project was a collective linkage analysis to discover functional mutations in Saccharomyces cerevisiae by Whole Genome Sequencing.
 
 ### 1.2 Project data:
 
@@ -24,7 +23,7 @@ This SRA project consists of 3 repositories:
 
 - SRX025957: yeast vac6, wild-type segregant pool [45]
 
-Each repository creating by sequencing on Illumina Genome Analyzer with Whole Genome Sequencing Strategy.
+Each repository was created by sequencing on Illumina Genome Analyzer with Whole Genome Sequencing Strategy.
 Read are the type of pair-end ones, random selected. 
 
 ## 2. Steps of analysis:
@@ -43,7 +42,7 @@ Read are the type of pair-end ones, random selected.
 
 ### 2.1 Downloading data - SRA repositorium:
 
-From each SRA project repostory, only first 1 000 000 read were downloaded.
+From each SRA project repostory, only first 1 000 000 reads were downloaded.
 Data has been obtained by using _fastq-dump_ function.
 This step resulted in 3 directories with 2 .fastq files each.
 
@@ -55,8 +54,7 @@ Reference genome has been downloaded from Ensembl with the use of _wget_ functio
 
 Next step was based on quality control for each downloaded record.
 This has been perfomered with the use of _fastqc_ and _multiqc_ function.
-All samples had good per base sequence quality, over 20. 
-Generated files can be found in the Data/Quality_control directory.
+All samples had good per base sequence quality, with score over 20. 
 
 ### 2.4 Indexing reference genom:
 
@@ -68,12 +66,12 @@ Data from SRA repositories have been mapped to reference genome with the use of 
 
 ### 2.6 Conversiona and indexing:
 
-Sam files has been convered into bam files with _samtools view_, and then sorted with the use of _samtools index_.
+.Sam files has been convered into .bam files with _samtools view_, and then sorted with the use of _samtools index_.
 
 ### 2.7 Aligment information:
 
-Information has been gathered with the use of the following _samtools_ arguments: _flagstat_, _stats_, _coverage_
-Then, collected informations have been visualized with use of following _Python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
+Informations about created bam files, had been gathered with the use of the following _samtools_ arguments: _flagstat_, _stats_ and _coverage_ function.
+Then, mentioned data has been visualized with use of following _Python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
 
 ### 2.8 SNP detection:
 
@@ -82,7 +80,7 @@ Then _bfctools call_ has been used in order to call genetic variants and outputs
 
 ### 2.9 Variant Filtering:
 
-_Vcftool_ has been used to reduce the size of the .vcf file and shorthen the number of variant.
+_Vcftool_ has been used to reduce the size of the .vcf file and shorten the number of variant.
 
 ### 2.10 Variant annotation:
 
