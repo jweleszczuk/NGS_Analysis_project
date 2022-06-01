@@ -1,4 +1,4 @@
-# NGS_Analysis_project
+# NGS Analysis project
 
 
 University project, neccesary to complete the course.
