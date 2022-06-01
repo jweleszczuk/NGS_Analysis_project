@@ -1,6 +1,6 @@
 #!/bin/bash
 
-l_of_names_1=(45 46 47 "Call_all")
+l_of_names_1=(45 46 47)
 
 for number in ${l_of_names_1[*]};do
 
