@@ -1,10 +1,10 @@
 # NGS Analysis project 
 University project, neccesary to complete the course.
 
-- **RAPORT.md**      = this file holds information about overall goal and performed steps chronological in order.
-- **README.ms**      = this file, which informs about structure of the repository.
+- **RAPORT.md**        = this file holds information about overall goal and performed steps chronological in order.
+- **README.ms**        = this file, which informs about structure of the repository.
 - **Data directory** = contains resul files, such as VCF files, visualizations and logs.
-- **Src directory**  = hold all of the scripts, used in this project.
+- **Src directory**    = hold all of the scripts, used in this project.
 
 ## **Data directory** - all result files
 This directory contains data that was used \ obtained during the analysis. 
