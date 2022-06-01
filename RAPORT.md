@@ -18,11 +18,11 @@ The aim of mentioned project was a collective linkage analysis to discover funct
 
 This SRA project consists of 3 repositories:
 
-- SRX025959: Yeast vac22, wild-type segregant pool [45]
+- SRX025959: Yeast vac22, wild-type segregant pool [47]
 
 - SRX025958: Yeast vac6, mutant segregant pool [46]
 
-- SRX025957: yeast vac6, wild-type segregant pool [47]
+- SRX025957: yeast vac6, wild-type segregant pool [45]
 
 Each repository creating by sequencing on Illumina Genome Analyzer with Whole Genome Sequencing Strategy.
 Read are the type of pair-end ones, random selected. 
