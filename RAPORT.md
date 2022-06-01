@@ -37,7 +37,7 @@ Read are the type of pair-end ones, random selected.
 7. Aligment information - _samtools_ + _jupyter notebook_
 8. Variant calling - _bcftools_
 9. Variant filter - _vcftools_
-10. Variant annotaion - _snpEff_
+10. Variant annotation - _snpEff_
 11. Visualization - _R_ and _Python_.
 
 ### 2.1 Downloading data - SRA repositorium:
@@ -54,7 +54,7 @@ Reference genome has been downloaded from Ensembl with the use of _wget_ functio
 
 Next step was based on quality control for each downloaded record.
 This has been perfomered with the use of _fastqc_ and _multiqc_ function.
-All samples had good per base sequence quality, with score over 20. 
+All samples had good per base sequence quality with score over 20. 
 
 ### 2.4 Indexing reference genom:
 
@@ -66,12 +66,12 @@ Data from SRA repositories have been mapped to reference genome with the use of 
 
 ### 2.6 Conversiona and indexing:
 
-.Sam files has been convered into .bam files with _samtools view_, and then sorted with the use of _samtools index_.
+.Sam files have been convered into .bam files with _samtools view_, and then sorted with the use of _samtools index_.
 
 ### 2.7 Aligment information:
 
 Informations about created bam files, had been gathered with the use of the following _samtools_ arguments: _flagstat_, _stats_ and _coverage_ function.
-Then, mentioned data has been visualized with use of following _Python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
+Then, the mentioned data has been visualized with use of following _Python_ packages: _pandas_ _seaborn_, _matplotlib.pyplot_.
 
 ### 2.8 SNP detection:
 
